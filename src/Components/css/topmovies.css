@@ -1,0 +1,54 @@
+.card{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;  
+
+}
+.card ul{
+    padding: 0px;
+    display: flex !important;
+    width: 100%;
+}
+.card ul li{
+    list-style: none;
+    width: 50%;
+    height: auto;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    background-color: rgb(33, 34, 47);
+    box-shadow: 2px 5px 10px black;
+    margin: auto;
+}
+.card ul li img{
+    width: 100%;
+    height: 86%;
+    margin-bottom: -50px;
+}
+
+.li:hover{
+    transform: scale(1.3);
+    box-shadow: -10px 20px 20px black;
+}
+.descDiv{
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+.description{
+    font-size: 13px;
+    color: gray;
+}
+
+@media only screen and (max-width:650px) {
+    .card ul li{
+        list-style: none;
+        width: 100%;
+        height: auto;
+        border: 1px solid gray;
+        margin-bottom: 20px;
+        background-color: rgb(33, 34, 47);
+        box-shadow: 2px 5px 10px black;
+        margin: auto;
+    }
+}

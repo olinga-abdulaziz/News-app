@@ -1,0 +1,14 @@
+.container{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10px !important;
+}
+.search{
+    width: 80%;
+    margin-left: 20px;
+    padding: 5px;
+}
+.form{
+    display: flex;
+}
